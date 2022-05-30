@@ -1,0 +1,23 @@
+﻿<Window x:Class="Grouping.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grouping"
+        Background="Black"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Width="400" Margin="197,-72,196.6,198">
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="400" UriSource="F:/Grouping/Grouping/bin/Debug/01.png" />
+            </Image.Source>
+        </Image>
+        <Button x:Name="button" Content="chioose Num of Groups" HorizontalAlignment="Left" Margin="300,149,0,0" VerticalAlignment="Top" Width="195" Height="73" Click="Button_Click" FontSize="16"/>
+        <Button x:Name="button1" Content="Assign Screens To Groups" HorizontalAlignment="Left" Margin="25,222,0,0" VerticalAlignment="Top" Width="172" Height="50" Click="Button1_Click" FontSize="14"/>
+        <Button x:Name="button2" Content="Groups &amp; Screens" HorizontalAlignment="Left" Margin="89,297,0,0" VerticalAlignment="Top" Width="108" Click="Button2_Click" Height="50"/>
+        <Button x:Name="button3" Content="Assign students to groups" HorizontalAlignment="Left" Margin="597,222,0,0" VerticalAlignment="Top" Width="176" Height="50" Click="Button3_Click" FontSize="14"/>
+        <Button x:Name="button5" Content="Students &amp; Groups" HorizontalAlignment="Left" Margin="597,297,0,0" VerticalAlignment="Top" Width="123" Click="Button5_Click" Height="50" FontSize="12"/>
+
+    </Grid>
+</Window>

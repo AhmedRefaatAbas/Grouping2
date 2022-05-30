@@ -1,0 +1,26 @@
+﻿<Window x:Class="Grouping.AssignScreensToGroups"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grouping"
+        Background="Black"
+        mc:Ignorable="d"
+        Title="AssignScreensToGroups" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <UniformGrid x:Name="grid" Margin="0,81,-0.4,51" Grid.RowSpan="2">
+
+
+
+        </UniformGrid>
+        <ComboBox x:Name="comboBox" Margin="10,42,516.6,344" Grid.RowSpan="2" />
+        <Button x:Name="button" Content="Save" Margin="359,374,359.6,0" Grid.RowSpan="2" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Choose Group :" Foreground="White" FontSize="20" VerticalAlignment="Top" Height="32" Width="267"/>
+    </Grid>
+
+
+</Window>

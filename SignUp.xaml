@@ -1,0 +1,32 @@
+﻿<Window x:Class="Grouping.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grouping"
+        mc:Ignorable="d"
+        Background="Black"
+        Title="SignUp" Height="500" Width="450">
+    <Border Background="Navy" CornerRadius="30" Margin="30">
+        <StackPanel Margin="20">
+            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center" />
+            <Separator></Separator>
+            <Label Content="User Name : " Foreground="White" FontSize="20" HorizontalAlignment="Left"/>
+            <TextBox x:Name="UserNameTxt" Height="25" Margin="0,0,0.2,0" FontSize="18"/>
+            <Label Content="Password  : " Foreground="White" FontSize="20"  HorizontalAlignment="Left"/>
+            <PasswordBox x:Name="PassTxt" Height="25" />
+            <Label Content="Repeat Password  : " Foreground="White" FontSize="20"  HorizontalAlignment="Left"/>
+            <PasswordBox x:Name="PassTxt2" Height="25" Margin="0,0,0,0" />
+            <Label Content="Email :" Foreground="White" FontSize="20"  HorizontalAlignment="Left"/>
+            <TextBox x:Name="EmailTxt" Height="25" FontSize="18" Margin="0,0,0,0"/>
+            
+            <Button x:Name="SignUpBtn" Content="Create an Account" Height="37" Margin="0,20,0.2,0" Click="SignUpBtn_Click"/>
+
+
+
+
+
+
+        </StackPanel>
+    </Border>
+</Window>
